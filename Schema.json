@@ -1,0 +1,65 @@
+{
+  "userInfos": {
+    "{userId}": {
+      "name": "Ouhssini Ahmed",
+      "email": "ahmedouhssini@gmail.com",
+      "diagnostics": {
+        "diagnosticId1": {
+          "diagnosticPhotoUrl": "https://storage.googleapis.com/bucket/photo1.jpg",
+          "scores": {
+            "hydration": 85,
+            "firmness": 72,
+            "brightness": 91,
+            "oiliness": 40,
+            "wrinkles": 60
+          },
+          "createdAt": "2025-08-14T10:00:00Z",
+          "recommendation": {
+            "barcode": "1234567890123"
+          }
+        },
+        "diagnosticId2": {
+          "diagnosticPhotoUrl": "https://storage.googleapis.com/bucket/photo2.jpg",
+          "scores": {
+            "hydration": 78,
+            "firmness": 69,
+            "brightness": 88,
+            "oiliness": 45,
+            "wrinkles": 55
+          },
+          "createdAt": "2025-08-15T14:30:00Z",
+          "recommendation": {
+            "barcode": "9876543210987"
+          }
+        }
+      }
+    }
+  },
+  "proDiagnostics": {
+    "{proUserId}": {
+      "name": "Jamal  Abdellaoui",
+      "email": "jamal@abdellaoui.com",
+      "diagnostics": {
+        "diagnosticId3": {
+          "client": {
+            "firstName": "Sarah",
+            "lastName": "Smith",
+            "phone": "+212600000000"
+          },
+          "diagnosticPhotoUrl": "https://storage.googleapis.com/bucket/photo3.jpg",
+          "scores": {
+            "hydration": 82,
+            "firmness": 75,
+            "brightness": 90,
+            "oiliness": 42,
+            "wrinkles": 58
+          },
+          "createdAt": "2025-08-16T09:15:00Z",
+          "recommendation": {
+            "barcode": "5554443332221"
+          }
+        }
+      }
+    }
+  }
+}
